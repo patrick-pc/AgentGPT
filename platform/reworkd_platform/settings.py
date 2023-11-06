@@ -65,7 +65,7 @@ class Settings(BaseSettings):
     serp_api_key: Optional[str] = None
 
     # Frontend URL for CORS
-    frontend_url: str = "https://agentgpt-demo.vercel.app"
+    frontend_url: str = "http://localhost:3000"
     allowed_origins_regex: Optional[str] = None
 
     # Variables for the database
